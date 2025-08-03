@@ -221,20 +221,6 @@ it-way-task1/
 ├── README.md
 ```
 
-## Packaging for Distribution
-To share or distribute the project (e.g., as a downloadable product for developers or startups):
-1. **Create a Zip File**:
-   ```bash
-   zip -r it-way-task1.zip website-app software-app README.md .gitignore
-   ```
-   **Note**: Exclude `.git`, `.env`, and `vendor` directories to reduce file size and protect sensitive data.
-2. **Provide Setup Instructions**:
-   Include this `README.md` in the zip to guide users through setup.
-3. **Dependencies**:
-   Instruct users to run `composer install` and `npm install` (if needed) after extracting the zip.
-4. **Licensing**:
-   Add a `LICENSE` file (e.g., MIT License) to clarify usage terms for distribution.
-
 ## Customization
 - **Authentication**:
   - Add fields to the `User` model (e.g., `role`) by modifying `app/Models/User.php` and updating migrations.
