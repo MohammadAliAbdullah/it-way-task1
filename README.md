@@ -217,7 +217,6 @@ it-way-task1/
 │   │   ├── web.php
 │   ├── .env
 │   ├── .env.example
-├── .gitignore
 ├── README.md
 ```
 
